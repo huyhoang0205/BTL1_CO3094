@@ -5,7 +5,7 @@
   - vd muốn run peer1  
     `cd peer1/`  
     `py server.py`  
-2. Run bằng docker: chạy peer1 peer2 peer3 bằng docker <br> 
+2. Run bằng docker: run peer1/peer2/peer3 bằng docker <br> 
   `cd docker`<br>
   `docker build -t <ten_image_tu_dat>`<br>
   `docker network create <ten_network_tu_dat>`<br>
