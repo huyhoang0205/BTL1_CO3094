@@ -16,7 +16,7 @@
 
 3. Các chứ năng
    - Các peer1,peer,peer3 có chức năng nhận/gửi yêu cầu upload,download,list file từ các peer khác hoặc client
-     +lệnh upload: upload <tên_file> <tên_host>('localhost'-local; peer1/peer2/peer3-docker) <port>
-     +lệnh download: upload <tên_file> <tên_host>('localhost'-local; peer1/peer2/peer3-docker) <port>
+     - lệnh upload: upload <tên_file> <tên_host>('localhost'-local; peer1/peer2/peer3-docker) <port>
+     - lệnh download: upload <tên_file> <tên_host>('localhost'-local; peer1/peer2/peer3-docker) <port>
    - peer monitor chỉ có chức năng cung cấp ip-port và các file của các peer hoạt động
    - client có chức năng upload,download,list file của/cho các peer đang hoạt động
