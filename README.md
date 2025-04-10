@@ -12,4 +12,11 @@
   `docker run -it -p 5001:5000 --name peer1 --network <ten_network_o_tren> <ten_image_o_tren>`<br>
   `docker run -it -p 5002:5000 --name peer2 --network <ten_network_o_tren> <ten_image_o_tren>`<br>
   `docker run -it -p 5003:5000 --name peer3 --network <ten_network_o_tren> <ten_image_o_tren>`<br>
-**còn monitor vs client thì vẫn chạy trên local mục đích muốn thể hiện chạy được trên đa nên tảng**
+**còn monitor vs client thì vẫn chạy trên local mục đích muốn thể hiện chạy được trên đa nên tảng**<br>
+
+3. Các chứ năng
+   - Các peer1,peer,peer3 có chức năng nhận/gửi yêu cầu upload,download,list file từ các peer khác hoặc client
+            -lệnh upload: upload <tên_file> <tên_host>('localhost'-local; peer1/peer2/peer3-docker) <port>
+            -lệnh download: upload <tên_file> <tên_host>('localhost'-local; peer1/peer2/peer3-docker) <port>
+   - peer monitor chỉ có chức năng cung cấp ip-port và các file của các peer hoạt động
+   - client có chức năng upload,download,list file của/cho các peer đang hoạt động
