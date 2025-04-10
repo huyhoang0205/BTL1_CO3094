@@ -14,7 +14,7 @@
   `docker run -it -p 5003:5000 --name peer3 --network <ten_network_o_tren> <ten_image_o_tren>`<br>
 **còn monitor vs client thì vẫn chạy trên local mục đích muốn thể hiện chạy được trên đa nên tảng**<br>
 
-3. Các chứ năng
+3. Các chức năng
    - Các peer1,peer,peer3 có chức năng nhận/gửi yêu cầu upload,download,list file từ các peer khác hoặc client
      - lệnh upload: upload <tên_file> <tên_host> <tên_port>
      - lệnh download: upload <tên_file> <tên_host> <tên_port>
