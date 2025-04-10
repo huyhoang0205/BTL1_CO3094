@@ -7,7 +7,7 @@
     `py server.py`  
 2. Run bằng docker: run peer1/peer2/peer3 bằng docker <br> 
   `cd docker`<br>
-  `docker build -t <ten_image_tu_dat>`<br>
+  `docker build -t <ten_image_tu_dat>` .<br>
   `docker network create <ten_network_tu_dat>`<br>
   `docker run -it -p 5001:5000 --name peer1 --network <ten_network_o_tren> <ten_image_o_tren>`<br>
   `docker run -it -p 5002:5000 --name peer2 --network <ten_network_o_tren> <ten_image_o_tren>`<br>
