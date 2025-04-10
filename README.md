@@ -1,11 +1,11 @@
 #BTL1 Mang May tinh
 1. Run trên local: Mô phỏng với mỗi thư mục là 1 máy<br>
-**lưu ý: - phải run đúng thư mục để code tạo folder đúng nơi<br>
+**lưu ý: <br>- phải run đúng thư mục để code tạo folder đúng nơi<br>
          - muốn run client phải run monitor trước vì client giao tiếp với moniter lấy dữ liệu**
   - vd muốn run peer1  
     `cd peer1/`  
     `py server.py`  
-2. Run bằng docker:<br> 
+2. Run bằng docker: chạy peer1 peer2 peer3 bằng docker <br> 
   `cd docker`<br>
   `docker build -t <ten_image_tu_dat>`<br>
   `docker network create <ten_network_tu_dat>`<br>
